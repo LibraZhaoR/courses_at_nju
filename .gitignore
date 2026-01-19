@@ -1,0 +1,21 @@
+# 忽略整个 .vscode 配置文件夹（推荐）
+.vscode/
+
+# 忽略 IDEA 配置文件夹
+.idea/
+
+# 忽略编译生成的可执行文件
+*.exe
+
+# 忽略编译生成的中间文件和库文件
+*.o
+*.obj
+*.lib
+*.dll
+
+# 忽略 CMake 构建文件夹
+cmake-build-debug/
+
+# 忽略 Windows 系统文件
+Thumbs.db
+.DS_Store
