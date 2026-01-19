@@ -19,3 +19,6 @@ cmake-build-debug/
 # 忽略 Windows 系统文件
 Thumbs.db
 .DS_Store
+
+# 直接忽略项目中的 Microsoft VS Code 文件夹（注意和实际文件夹名称大小写、空格一致）
+Microsoft VS Code/
