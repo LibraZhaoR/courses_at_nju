@@ -24,6 +24,8 @@ Thumbs.db
 Microsoft VS Code/
 # Prerequisites
 *.d
+# 忽略lab00
+lab00-Code/
 
 # Object files
 *.o
@@ -50,7 +52,6 @@ Microsoft VS Code/
 *.dll
 *.so
 *.so.*
-*.dylib
 
 # Executables
 *.exe
