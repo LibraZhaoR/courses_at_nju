@@ -1,0 +1,78 @@
+# 忽略整个 .vscode 配置文件夹（推荐）
+.vscode/
+
+# 忽略 IDEA 配置文件夹
+.idea/
+
+# 忽略编译生成的可执行文件
+*.exe
+
+# 忽略编译生成的中间文件和库文件
+*.o
+*.obj
+*.lib
+*.dll
+
+# 忽略 CMake 构建文件夹
+cmake-build-debug/
+
+# 忽略 Windows 系统文件
+Thumbs.db
+.DS_Store
+
+# 直接忽略项目中的 Microsoft VS Code 文件夹（注意和实际文件夹名称大小写、空格一致）
+Microsoft VS Code/
+# Prerequisites
+*.d
+# 忽略lab00
+lab00-Code/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# debug information files
+*.dwo
